@@ -3,14 +3,29 @@
     font-family: sans-serif;
 }
 
+body {
+    margin: 0;
+    min-width: 1000px;
+}
+
 .width {
     /* width: 75%;
     margin-left: 12%;
     margin-right: 12%; */
 }
 
+button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 14px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    /* margin-top: 58px; */
+}
+
 header {
-    height: 120px;
+    height: 100px;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -20,30 +35,36 @@ header {
 
 header h3 {
    margin-left: 160px;
+   margin-top: 14px;
    font-size: 24px;
    color: #f9faf8;
 }
 
 header ul {
     display: flex;
+    margin-right: 143px;
 }
 
 header ul li {
-    margin-right: 160px;
+    margin-right: 25px;
     list-style: none;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 header ul a {
-    color: #e5e7eb;
+    color: #e5e7eba3;
     text-decoration: none;
     
+}
+
+header ul a:hover {
+    color: #e5e7eb;
 }
 
 /* ============================================ mainbit ============================ */
 
 .mainbit {
-    height: 500px;
+    height: 350px;
     background-color: #1f2937;
     margin-top: 0;
     display: flex;
@@ -60,11 +81,20 @@ header ul a {
 }
 
 .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 60%;
     /* border: 2px solid red; */
     background-color: #6c6c6d;
     margin-right: 160px;
     width: 40%;
+    
+}
+
+.right h4 {
+    padding: 10px;
+    font-size: 10px;
 }
 
 .left h1 {
@@ -75,4 +105,49 @@ header ul a {
 
 .left p {
     padding-right: 125px;
+    margin-top: 0;
+}
+
+/* ==================================== Random info section ============================== */
+
+.randomInfoSection {
+    height: 360px;
+}
+
+.randomInfoHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.imagesContainer {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 22px;
+}
+
+.imageBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.imageBox .text {
+    color: #00000082;
+    font-size: 10px;
+}
+
+.imageHolder {
+    height: 125px;
+    width: 125px;
+    border: 2px solid #3882f6;
+    border-radius: 13px;
 }
