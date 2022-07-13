@@ -21,7 +21,7 @@ button {
     padding: 5px 20px;
     border: none;
     border-radius: 5px;
-    /* margin-top: 58px; */
+    margin-top: 25px;
 }
 
 header {
@@ -150,4 +150,83 @@ header ul a:hover {
     width: 125px;
     border: 2px solid #3882f6;
     border-radius: 13px;
+}
+
+/* ================================ Quote bit ======================================= */
+
+.quotebit {
+    display: flex;
+    height: 360px;
+    background-color: #dadada;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteHolder {
+    display: flex;
+    width: 45%;
+    
+}
+
+.quoteHolder p {
+    font-style: italic;
+    color: #6c6c6d;
+    font-size: 31px;
+}
+
+.auther {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.auther p {
+    font-weight: bolder;
+    margin: 0;
+}
+
+/* ============================================ Call to action ======================= */
+
+.callToAction {
+    display: flex;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDiv {
+    display: flex;
+    height: 55%;
+    width: 70%;
+    background-color: #3882f6;
+    border-radius: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.callToActionText {
+    flex: 2;
+}
+
+.callToActionText p {
+    color: white;
+    margin: 0 0 0 40px;
+    font-size: 12px;
+}
+
+.buttonDiv {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#bolderer {
+    font-size: larger;
+    margin: 0 0 5px 40px;
+}
+
+.innerDiv button {
+    border: 1px solid white;
+    margin: 0;
 }
