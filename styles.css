@@ -230,3 +230,13 @@ header ul a:hover {
     border: 1px solid white;
     margin: 0;
 }
+
+footer {
+    display: flex;
+    height: 85px;
+    background-color: #1f2937;
+    color:#6c6c6d;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
